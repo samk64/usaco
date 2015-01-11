@@ -1,0 +1,30 @@
+------- test 1 ----
+COMETQ
+HVNGAT
+------- test 2 ----
+STARAB
+USACO
+------- test 3 ----
+EARTH
+LEFTB
+------- test 4 ----
+PULSAR
+VENUS
+------- test 5 ----
+KANSAS
+UTAH
+------- test 6 ----
+APPLE
+URSA
+------- test 7 ----
+MSFT
+MARS
+------- test 8 ----
+PLUTO
+BKHOLE
+------- test 9 ----
+COWSBC
+RIGHT
+------- test 10 ----
+DRKMTR
+SNIKER
