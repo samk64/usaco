@@ -196,12 +196,12 @@ void get_frequency_of_13ths_cumulative(int nYear, std::map<int, int>& mapDayToFr
         }
     }
 
-    std::map<int, int>::iterator it = mapDayToFrequency.begin();
-    while( it != mapDayToFrequency.end() )
-    {
-        std::cout << it->first << ", " << it->second << std::endl; 
-        ++it;
-    }
+    //std::map<int, int>::iterator it = mapDayToFrequency.begin();
+    //while( it != mapDayToFrequency.end() )
+    //{
+     //   std::cout << it->first << ", " << it->second << std::endl; 
+      //  ++it;
+    //}
 
 }
 
@@ -215,7 +215,7 @@ std::string get_frequency_of_13ths(int nYear)
     for (int i = 1; i <= 7; i++)
     {
         int nDaysInWeek = 7;
-        int nDayOfWeek = convert_day_to_weekday(i+5); // start on sunday
+        int nDayOfWeek = convert_day_to_weekday(i+5); // start on saturday 
 
         //std::cout << "DAY " << nDayOfWeek << std::endl;
 

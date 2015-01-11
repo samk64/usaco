@@ -117,7 +117,7 @@ TEST(FRIDAY, test_get_frequency_of_13ths)
     {
         int N = inputs[i];
         int nYear = 1900 + N - 1;
-        if (i == 0) ASSERT_TRUE(get_frequency_of_13ths(nYear) == outputs[i]);
+        ASSERT_TRUE(get_frequency_of_13ths(nYear) == outputs[i]);
     }
 }
 
