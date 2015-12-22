@@ -1,7 +1,7 @@
 /**
 ID: samk641
 LANG: C++
-PROB: beads
+PROG:
  **/
 #include <iostream>
 
