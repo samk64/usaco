@@ -15,13 +15,24 @@ int main ()
     ofs.open("bead.out");
 
     std::string numBeads;
-    std::string chars;
+    std::string beads;
     
     ifs >> numBeads;
     int N = atoi(numBeads.c_str()); 
-    ifs >> chars;
-    std::cout << numBeads << std::endl 
-              << chars    << std::endl; 
+    ifs >> beads;
+    //std::cout << numBeads << std::endl 
+    //          << beads    << std::endl; 
+   
+    std::string beads3 = beads + beads + beads;
+    //std::cout << beads << std::endl; 
+    char buffer[350*3+1];
+    beads3.copy(buffer, beads3.length(), 0); 
+    //std::cout << buffer << std::endl;
+    
+    //for(int i = 0; i < ...; i++)
+    //{
+    //
+    //} 
     
     return 0;
 }
